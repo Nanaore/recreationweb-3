@@ -81,6 +81,34 @@ body{
       
 }
 
+.deb1{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500px; 
+    font-size:24px;
+    line-height:44px;
+}
+
+.deb2{
+    font-family: 'Poppins', sans-serif; 
+    font-weight:700px; 
+    font-size:40px;
+    line-height:44px;
+}
+
+.deb3{
+    font-family:'Poppins', sans-serif;
+     font-weight:700px; 
+     font-size:24px; 
+     line-height:44px; 
+     font-weight:bold;
+}
+
+.deb4{
+    font-family:'Poppins', sans-serif; 
+    font-weight:400px; font-size:24px; 
+    line-height:36px;
+}
+
 .whatido{
     text-align:center;
     color:#162447;
@@ -423,6 +451,104 @@ height: 234px;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
+}
+
+@media only screen and (max-width: 768px){
+    .header{
+        width:100%;
+    }
+    .navigationbar{
+        text-align:center;
+        
+        margin-top:0px;
+    }
+    
+    .navigationbar li{
+        color:rgb(32, 36, 83, 0.89);
+        list-style:none;
+        display:inline-block;
+        margin-top:10px;
+        margin-bottom:15px;
+        font-family: 'poppins', sans-serif;
+        font-size:12px;  
+        font-weight:200%;
+        
+        
+    }
+    .navigationbar li:hover{
+        color:#e43f5a;
+    }
+    
+    #contactme{
+        color:white;
+        border:2px solid #e43f5a;
+        border-radius:5px;
+        background-color:#e43f5a;
+        font-family: 'Poppins', sans-serif;
+        font-size:12px;
+        font-weight:200%;
+        padding:0px;
+        
+        }
+    #contactme:hover{
+        color:black;
+    }
+
+    .container{
+        background-image:url(images/womaninglasses.jpg);
+        width:100%;
+        background-size:cover;
+        background-repeat:no-repeat;
+        margin-top:0px;
+        height:300px;
+    
+    }
+    .layer{
+        background-color:rgba(19, 20, 36,0.8);
+        width:100%;
+        height:300px;
+        
+        
+    }
+    
+    
+    .welcome{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+
+    .deb1{
+        font-family: 'Poppins', sans-serif;
+        font-weight:200px; 
+        font-size:12px;
+        line-height:24px;
+    }
+    
+    .deb2{
+        font-family: 'Poppins', sans-serif; 
+        font-weight:200px; 
+        font-size:20px;
+        line-height:24px;
+    }
+    
+    .deb3{
+        font-family:'Poppins', sans-serif;
+         font-weight:200px; 
+         font-size:12px; 
+         line-height:24px; 
+         font-weight:bold;
+    }
+    
+    .deb4{
+        font-family:'Poppins', sans-serif; 
+        font-weight:400px;
+         font-size:12px; 
+        line-height:20px;
+    }
+    
+    
+    
+    
 }
 
 
