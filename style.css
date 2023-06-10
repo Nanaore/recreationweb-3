@@ -461,6 +461,20 @@ height: 234px;
 }
 
 @media only screen and (max-width: 768px){
+
+    .container2{
+    
+    
+        height:50px;
+        
+    }
+    
+    .navbar{
+        
+        height:50px;
+        padding-top:20px;
+        
+    }
     .row{
         font-size:0.8rem;
         margin-left:0.5rem;
