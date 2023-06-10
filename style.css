@@ -8,51 +8,63 @@
 body{
     margin:0px;
     background-color: #F4F4F4;
+    font-family:'Poppins', sans-serif;
 }
 
-.header{
-   /* height:65px;*/
-    width:1140;
-    /*top:2px;*/
-}
-.navigationbar{
-    text-align:right;
-    margin-right:70px;
-    margin-top:0px;
-}
-
-.navigationbar li{
-    color:rgb(32, 36, 83, 0.89);
-    list-style:none;
-    display:inline-block;
-    margin-right:10px;
-    margin-left:16px;
-    margin-top:10px;
-    margin-bottom:15px;
-    font-family: 'poppins', sans-serif;
-    font-size:20px;  
-    font-weight:400%;
+.container2{
     
     
-}
-.navigationbar li:hover{
-    color:#e43f5a;
+    height:70px;
+    
 }
 
-#contactme{
+.navbar{
+    
+    height:50px;
+    padding-top:20px;
+    
+}
+
+
+
+.row{
+    font-size:1rem;
+    text-decoration:none;
+    list-style-type:none;
+    margin-left:1rem;
+    margin-right:1rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding:10px;
+    color:#162447;
+     
+    border:1px;
+    border-color:transparent;
+    border-radius:5px;
+}
+
+.row:hover{
+    margin-left:1rem;
+    margin-right:1rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding:10px;
+    background-color:#693E26;
+    color:white;
+}
+
+#droppybtn{
     color:white;
     border:2px solid #e43f5a;
     border-radius:5px;
     background-color:#e43f5a;
-    font-family: 'Poppins', sans-serif;
-    font-size:14px;
-    font-weight:500%;
-    line-height:32.5px;
-    padding:10px 23px 10px 23px;
-    }
-#contactme:hover{
+}
+
+#droppybtn:hover{
     color:black;
 }
+
+
 
 
 .container{
@@ -454,46 +466,29 @@ height: 234px;
 }
 
 @media only screen and (max-width: 768px){
-    .header{
-        width:100%;
-    }
-    .navigationbar{
-        text-align:center;
+    .row{
+        font-size:0.8rem;
+        margin-left:0.5rem;
+        margin-right:0.5rem;
+        padding-left:1rem;
+        padding-right:1rem;
+        padding:6px;
         
-        margin-top:0px;
+        
     }
     
-    .navigationbar li{
-        color:rgb(32, 36, 83, 0.89);
-        list-style:none;
-        display:inline-block;
-        margin-top:10px;
-        margin-bottom:15px;
-        font-family: 'poppins', sans-serif;
-        font-size:12px;  
-        font-weight:200%;
-        
-        
-    }
-    .navigationbar li:hover{
-        color:#e43f5a;
+    .row:hover{
+        margin-left:0.5rem;
+        margin-right:0.5rem;
+        padding: 6px;
+        background-color:#693E26;
     }
     
-    #contactme{
-        color:white;
-        border:2px solid #e43f5a;
-        border-radius:5px;
-        background-color:#e43f5a;
-        font-family: 'Poppins', sans-serif;
-        font-size:12px;
-        font-weight:200%;
-        padding:0px;
-        
-        }
-    #contactme:hover{
-        color:black;
-    }
+    
 
+    
+
+    
     .container{
         background-image:url(images/womaninglasses.jpg);
         width:100%;
