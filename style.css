@@ -524,6 +524,14 @@ height: 234px;
     
 }
 
+@media only screen and (max-width: 768px){
+    .welcome{
+        margin-left:10px;
+         text-align:left;
+         
+     }
+}
+
 
 
 
